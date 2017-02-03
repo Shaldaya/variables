@@ -1,0 +1,24 @@
+using UnityEngine;
+using System.Collections;
+
+public class variables : MonoBehaviour {
+	
+	void Start () {
+
+		int j = 20
+			//^ int=variableType j=variableName = 20=variable
+		bool lightOn = true
+			//^ bool=variableType lightOn=variableName = true=variable
+		double Pi = 3.14159
+			//^ double=variableType Pi=variableName = 3.14...=variable
+		float length = 1.234
+			//^ float=variableType length=variableName = 1.234=variable
+		float maths = 'j + length'
+			//^ will add thei value of j and length to find the value of maths
+	
+	}
+
+	void Update () {
+	
+	}
+}
